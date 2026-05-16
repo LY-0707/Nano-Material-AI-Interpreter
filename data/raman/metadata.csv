@@ -1,0 +1,13 @@
+﻿filename,material,concentration_ppm,Ag,NaI,time_s,replicate,path
+MG_0.1ppm_Ag0_NaI0_1s_rep1.txt,MG,0.1,0,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_0.1ppm_Ag0_NaI0_1s_rep1.txt
+MG_0.1ppm_Ag250_NaI0_0.1s_rep1.txt,MG,0.1,250,0,0.1,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_0.1ppm_Ag250_NaI0_0.1s_rep1.txt
+MG_0.1ppm_Ag250_NaI0_1s_rep1.txt,MG,0.1,250,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_0.1ppm_Ag250_NaI0_1s_rep1.txt
+MG_0.1ppm_Ag250_NaI1_0.1s_rep1.txt,MG,0.1,250,1,0.1,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_0.1ppm_Ag250_NaI1_0.1s_rep1.txt
+MG_0.1ppm_Ag250_NaI1_1s_rep1.txt,MG,0.1,250,1,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_0.1ppm_Ag250_NaI1_1s_rep1.txt
+MG_100ppm_Ag0_NaI0_1s_rep1.txt,MG,100.0,0,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_100ppm_Ag0_NaI0_1s_rep1.txt
+MG_10ppm_Ag0_NaI0_1s_rep1.txt,MG,10.0,0,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_10ppm_Ag0_NaI0_1s_rep1.txt
+MG_10ppm_Ag250_NaI0_1s_rep1.txt,MG,10.0,250,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_10ppm_Ag250_NaI0_1s_rep1.txt
+MG_10ppm_Ag250_NaI1_1s_rep1.txt,MG,10.0,250,1,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_10ppm_Ag250_NaI1_1s_rep1.txt
+MG_2.1ppm_Ag0_NaI0_1s_rep1.txt,MG,2.1,0,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_2.1ppm_Ag0_NaI0_1s_rep1.txt
+MG_2.1ppm_Ag250_NaI0_1s_rep1.txt,MG,2.1,250,0,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_2.1ppm_Ag250_NaI0_1s_rep1.txt
+MG_2.1ppm_Ag250_NaI1_1s_rep1.txt,MG,2.1,250,1,1.0,1,C:\Users\LY\Nano-Material-AI-Interpreter\data\raman\raw\MG_2.1ppm_Ag250_NaI1_1s_rep1.txt
