@@ -24,7 +24,9 @@ This project explores an AI-assisted pipeline to automatically extract features 
 
 ## System Architecture
 
-![alt text](mermaid-diagram.png)
+<p align="center">
+  <img src="assets/system_architecture.png" width="850">
+</p>
 
 ---
 
