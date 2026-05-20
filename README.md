@@ -10,11 +10,36 @@ This project explores an AI-assisted pipeline to automatically extract features 
 
 ## Features
 
-- Raman spectrum preprocessing (baseline correction, smoothing)
-- Peak detection and feature extraction
-- SEM image-based morphology analysis
-- Rule-based + database matching for material identification
-- Integrated report generation
+- **Raman spectrum preprocessing:** Baseline correction (Asymmetric Least Squares) and smoothing (Savitzky-Golay).
+- **Peak detection & feature extraction:** High-precision peak finding and Raman shift calculation ($\text{cm}^{-1}$).
+- **SEM image-based morphology analysis:** Particle sizing, boundary detection, and shape descriptor extraction.
+- **Hybrid Matching Engine:** Combined rule-based expert systems with database matching for material identification.
+- **Integrated report generation:** Automated structured markdown export.
+
+## System Architecture
+
+```mermaid
+graph TD
+    In1[Raw Raman Spectrum] --> B[Raman Preprocessing]
+    In2[Raw SEM Image] --> C[SEM Image Processing]
+
+    B --> B1[Baseline Correction]
+    B --> B2[Smoothing]
+    B --> B3[Peak Detection]
+
+    C --> C1[Noise Reduction]
+    C --> C2[Morphology Extraction]
+
+    B3 --> F[Feature Fusion Layer]
+    C2 --> F
+
+    F --> G[Material Matching Engine]
+    G --> G1[Database Matching]
+    G --> G2[Rule-based Inference]
+
+    G --> H[AI Interpretation Module]
+    H --> I[Structured Report Generation]
+
 
 ## Pipeline
 
@@ -35,7 +60,7 @@ Predicted Material:
 
 ## Installation
 
-git clone https://github.com/yourname/project.git
+git clone https://github.com/LY-0707/Nano-Material-AI-Interpreter.git
 cd project
 pip install -r requirements.txt
 
@@ -57,4 +82,3 @@ python run_multimodal.py
 - Expand database for Raman spectral matching
 - Improve SEM morphology quantification
 - Build web-based visualization interface
-
